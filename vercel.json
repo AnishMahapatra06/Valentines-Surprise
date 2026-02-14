@@ -4,11 +4,7 @@
   "installCommand": "cd For-You--Always-main && npm install",
   "routes": [
     {
-      "src": "/assets/.*",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": ".*",
+      "src": "/(?!.*\\.).*",
       "dest": "/index.html"
     }
   ]
