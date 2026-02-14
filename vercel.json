@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd For-You--Always-main && npm run build",
+  "outputDirectory": "For-You--Always-main/dist",
+  "installCommand": "cd For-You--Always-main && npm install",
+  "routes": [
+    {
+      "src": "^/(?!.*\\.).*$",
+      "destination": "/index.html"
+    }
+  ]
+}
